@@ -1,0 +1,36 @@
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.edit{
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+h1{
+   text-align: center;
+   padding-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+      body {
+      padding-top: 40%;
+      }
+    }
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+      body {
+      padding-top: 300px;
+      }
+    }
+@media only screen and (min-width: 1025px) {
+  body {
+    padding-top: 100px;
+  }
+}
+    
